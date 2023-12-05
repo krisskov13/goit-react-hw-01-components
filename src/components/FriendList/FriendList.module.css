@@ -1,0 +1,40 @@
+.friend_list {
+  margin: 40px 0 0 20px;
+  padding: 0;
+  width: 300px;
+}
+
+.item {
+  list-style: none;
+  display: flex;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.status {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-right: 20px;
+}
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.avatar {
+  border: 1px solid black;
+  border-radius: 10%;
+  margin-right: 20px;
+}
+
+.name {
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

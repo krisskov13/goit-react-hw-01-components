@@ -1,0 +1,15 @@
+.transaction_history {
+  width: 550px;
+  margin: 40px 0 0 20px;
+}
+
+.element_thead {
+  padding: 15px;
+  background-color: rgb(46, 136, 88);
+}
+
+.table_data {
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(216, 239, 231);
+}
